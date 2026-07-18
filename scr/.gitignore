@@ -1,0 +1,28 @@
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# NetBeans
+nbproject/
+nbactions.xml
+nb-configuration.xml
+build/
+dist/
+nbbuild/
+nbdist/
+
+# Sistema
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.bak
+*~
+
+# NetBeans
+build/
+dist/
+nbproject/
+test/

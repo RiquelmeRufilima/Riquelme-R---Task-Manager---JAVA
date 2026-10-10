@@ -1,0 +1,15 @@
+.root { -fx-font-family: "Segoe UI", Arial, sans-serif; -fx-font-size: 13px; -fx-background-color: #f5f8fc; }
+.cabecalho { -fx-padding: 22; -fx-background-color: #eaf3fc; -fx-border-color: transparent transparent #d6e5f5 transparent; }
+.conteudo { -fx-padding: 22; }
+.titulo { -fx-font-size: 25px; -fx-text-fill: #144d81; -fx-font-weight: bold; }
+.subtitulo { -fx-text-fill: #54708c; }
+.button { -fx-background-radius: 7; -fx-background-color: #e4edf6; -fx-text-fill: #1b3c5c; -fx-padding: 9 14; -fx-cursor: hand; }
+.button:hover { -fx-background-color: #cee1f5; }
+.primario { -fx-background-color: #2374b9; -fx-text-fill: white; -fx-font-weight: bold; }
+.primario:hover { -fx-background-color: #175e99; }
+.perigo { -fx-background-color: #ffe0e0; -fx-text-fill: #922525; }
+.table-view { -fx-background-color: white; -fx-background-radius: 8; -fx-border-color: #dbe5ef; -fx-border-radius: 8; }
+.table-view .column-header-background { -fx-background-color: #eaf3fc; }
+.table-view .column-header { -fx-background-color: transparent; -fx-padding: 12 4; }
+.text-field, .text-area, .combo-box { -fx-background-radius: 6; -fx-border-radius: 6; -fx-border-color: #c5d6e5; }
+.rodape { -fx-text-fill: #486580; -fx-font-weight: bold; }

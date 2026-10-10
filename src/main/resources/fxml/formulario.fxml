@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<BorderPane xmlns:fx="http://javafx.com/fxml" fx:controller="controller.FormularioController" styleClass="janela">
+ <center><VBox spacing="14" styleClass="conteudo">
+  <Label text="Dados da tarefa" styleClass="titulo"/>
+  <Label text="Título *"/><TextField fx:id="titulo" promptText="Ex.: Estudar JavaFX"/>
+  <Label text="Descrição"/><TextArea fx:id="descricao" promptText="Detalhes da tarefa..." prefRowCount="3" VBox.vgrow="ALWAYS" wrapText="true"/>
+  <HBox spacing="16" alignment="CENTER_LEFT">
+   <Label text="Prioridade:"/><ComboBox fx:id="prioridade" prefWidth="135"/>
+   <CheckBox fx:id="concluida" text="Concluída"/>
+  </HBox>
+  <HBox spacing="10" alignment="CENTER_RIGHT"><Button text="Cancelar" onAction="#cancelar"/><Button text="Salvar tarefa" onAction="#salvar" styleClass="primario"/></HBox>
+ </VBox></center>
+</BorderPane>

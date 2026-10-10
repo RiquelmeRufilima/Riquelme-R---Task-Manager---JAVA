@@ -29,8 +29,7 @@ public class FormularioController {
     servico.editarTarefa(modificada);
    }
    salvo=true;fechar();
-  }catch(Exception ex){new Alert(Alert.AlertType.ERROR,"Não foi possível salvar:
-"+ex.getMessage(),ButtonType.OK).showAndWait();}
+  }catch(Exception ex){new Alert(Alert.AlertType.ERROR,"Não foi possível salvar:\n"+ex.getMessage(),ButtonType.OK).showAndWait();}
  }
  @FXML private void cancelar(){fechar();}
  private void fechar(){((Stage)titulo.getScene().getWindow()).close();}

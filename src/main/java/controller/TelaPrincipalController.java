@@ -71,6 +71,5 @@ public class TelaPrincipalController {
   }
  }
  private void aviso(String msg){new Alert(Alert.AlertType.INFORMATION,msg,ButtonType.OK).showAndWait();}
- private void erro(String msg,Exception ex){new Alert(Alert.AlertType.ERROR,msg+"
-"+ex.getMessage(),ButtonType.OK).showAndWait();}
+ private void erro(String msg,Exception ex){new Alert(Alert.AlertType.ERROR,msg+"\n"+ex.getMessage(),ButtonType.OK).showAndWait();}
 }
